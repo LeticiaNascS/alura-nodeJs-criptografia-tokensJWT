@@ -17,3 +17,4 @@ const mensagemDecifrada =
   decifra.update(mensagemCifrada, "hex", "utf-8") + decifra.final("utf-8");
 
 console.log(mensagemDecifrada.toString("utf-8"));
+ 
